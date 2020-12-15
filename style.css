@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.95)!important;
+  top: -70px;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding: 0 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+  transition: 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+.home-inner {
+  background-image: url(img/bg.jpg);
+}
+
+.outer {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.caption {
+  width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  letter-spacing: 10px;
+}
+
+.fa-chevron-circle-down {
+  text-align: center;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -27px;
+  color: white;
+  position: absolute;
+}
+.fa-chevron-circle-down:hover {
+  color: #4f5963;
+  transition: 0.2s;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+#about {
+  padding: 30px 0;
+  background-color: #0f0f0f;
+  color: #828c96;
+}
+.about_me h1 {
+  letter-spacing: .2rem;
+  color: #1ebba3;
+}
+.about_me p {
+  font-size: 18px;
+  letter-spacing: .1rem;
+  line-height: 200%;
+}
+.profile_icon {
+  border-radius: 50%;
+}
+
+#skill {
+  padding: 30px 0;
+}
+.skill_table {
+  letter-spacing: .2rem;
+}
+.skill_title {
+  letter-spacing: .3rem;
+}
+.container {
+  width: 100%;
+  padding-left: 0px;
+  background-color: #ddd;
+  border-radius: 25px;  
+}
+.skills {
+  height: 7px;
+}
+.network {width: 95%; background-color: #1ebba3; border-radius: 25px;}
+.python {width: 88%; background-color: #1ebba3; border-radius: 25px;}
+.data_ana {width: 85%; background-color: #1ebba3; border-radius: 25px;}
+.app_dev {width: 60%; background-color: #1ebba3; border-radius: 25px;}
+.java {width: 60%; background-color: #1ebba3; border-radius: 25px;}
+
+
+
+
+.project-title {
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+#project {
+  background-color: #212121;
+  color: #cfd8dc;
+  padding: 30px 0;
+}
+.project_name {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+
+}
+.proj_description p {
+  font-size: 18px;
+  letter-spacing: .1rem;
+  line-height: 180%;
+}
+.btn-outline-light {
+  border-radius: 10%;
+}
+.btn-outline-light:hover {
+  border-color: #ff4e00;
+  background-color: #ff4e00;
+  color: white;
+
+}
+
+#contacts {
+  padding: 30px 0;
+}
+
+footer {
+  padding: 15px;
+  background-color: #e9ecef;
+}
+
+.fa-angle-up {
+  position: fixed;
+  right: 20px;
+  bottom :5px;
+  color: #4f5963;
+}
+.fa-angle-up:hover {
+  color: #282923;
+  transition: 0.2s;
+}
+
+
+@media (max-width: 767px) {
+  .caption h1 {
+  font-size: 3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+}
+
+  .caption h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+  }
+
+
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
